@@ -50,8 +50,8 @@ var config = {
       // full list of items to the well
       $("#full-list").append("<div class='well'><strong><span class='name'> " + childSnapshot.val().name +
         " </strong></span><span class='email'> | " + childSnapshot.val().email +
-        " </span><span class='position'> |" + childSnapshot.val().position +
-        " </span><tr><span class='comment'> " + childSnapshot.val().comment + " </span></tr></div><br>");
+        " </span><span class='position'> |  " + childSnapshot.val().position +
+        " </span><tr><span class='comment'> | " + childSnapshot.val().comment + " </span></tr></div><br>");
 
     // handling errors
     }, function(errorObject) {
