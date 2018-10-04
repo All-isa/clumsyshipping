@@ -22,15 +22,11 @@ var config = {
     $("#add-post").on("click", function(event) {
       event.preventDefault();
 
-      // YOUR TASK!!!
-      // Code in the logic for storing and retrieving the most recent user.
-      // Don't forget to provide initial data to your Firebase database.
       name = $("#name-input").val().trim();
       email = $("#email-input").val().trim();
       position = $("#position-input").val().trim();
       comment = $("#comment-input").val().trim();
 
-      // Code for the push
       dataRef.ref().push({
         
         name: name,
