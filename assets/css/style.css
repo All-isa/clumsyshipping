@@ -1,0 +1,28 @@
+body {
+    margin:30px;
+}
+.card {
+    font-family: 'Montserrat';
+    padding:20px;
+    margin:20px;
+    text-align: left;
+}
+
+.container {
+    justify-content: center;
+    font-family: 'Lato';
+    background-color: white;
+}
+
+.jumbotron {
+    background-image: url("../images/cargoship.png");
+    text-align: center;
+    font-family: 'Lato';
+    color: white;
+    width: auto;
+    height: 400px;
+    padding: 50px;
+}
+#jumbotron-text {
+    font-weight: 800;
+}
